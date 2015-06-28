@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="distorm3">
+      <UniqueIdentifier>{a10850ec-2bb4-4243-bc64-7b8f741c4f6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AsmView.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AsmView.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\common\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AsmView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmViewDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiStorm3\distorm.h">
+      <Filter>distorm3</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AsmView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsmViewDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\decoder.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\distorm.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\instructions.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\insts.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\operands.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\prefix.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\textdefs.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\wstring.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\src\x86defs.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiStorm3\mnemonics.c">
+      <Filter>distorm3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AsmView.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
